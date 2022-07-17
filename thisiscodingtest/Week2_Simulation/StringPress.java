@@ -3,9 +3,6 @@ package thisiscodingtest.Week2_Simulation;
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.io.IOException;
-import java.util.Arrays;
-
 class Solution {
     public int solution(String s) {
         int length = s.length();
