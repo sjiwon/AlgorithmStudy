@@ -176,38 +176,47 @@ class Solution3 {
 public class Installation {
     static void start(int n, int[][] build_frame, int[][] expect){
         System.out.println("## 테스트 케이스 ##");
-        System.out.println("n = " + n);
-        System.out.println("build_frame = " + Arrays.deepToString(build_frame));
+        System.out.println("<n>");
+        System.out.println(n + "\n");
+        System.out.println("<build_frame>");
+        System.out.println(Arrays.deepToString(build_frame) + "\n");
 
         int[][] solution = new Solution3().solution(5, build_frame);
-        System.out.println(">> 결과 = " + Arrays.deepToString(solution));
+        System.out.println("<Result>");
+        System.out.println(Arrays.deepToString(solution) + "\n");
         System.out.println("expect = " + Arrays.deepToString(expect) + " -> actual = " + Arrays.deepToString(solution) + "\n");
         Assert.assertArrayEquals(solution, expect);
     }
 
     @Test
     public void 테스트케이스1(){
-//        start(5,
-//                new int[][]{
-//                        {1, 0, 0, 1},
-//                        {1, 1, 1, 1},
-//                        {2, 1, 0, 1},
-//                        {2, 2, 1, 1},
-//                        {5, 0, 0 ,1},
-//                        {5, 1, 0, 1},
-//                        {4, 2, 1, 1},
-//                        {3, 2, 1, 1}
-//                }, new int[][]{
-//                        {1, 0, 0},
-//                        {1, 1, 1},
-//                        {2, 1, 0},
-//                        {2, 2, 1},
-//                        {3, 2, 1},
-//                        {4, 2, 1},
-//                        {5, 0, 0},
-//                        {5, 1, 0}
-//                }
-//        );
+        start(5,
+                new int[][]{
+                        {1, 0, 0, 1},
+                        {1, 1, 1, 1},
+                        {2, 1, 0, 1},
+                        {2, 2, 1, 1},
+                        {5, 0, 0 ,1},
+                        {5, 1, 0, 1},
+                        {4, 2, 1, 1},
+                        {3, 2, 1, 1}
+                }, new int[][]{
+                        {1, 0, 0},
+                        {1, 1, 1},
+                        {2, 1, 0},
+                        {2, 2, 1},
+                        {3, 2, 1},
+                        {4, 2, 1},
+                        {5, 0, 0},
+                        {5, 1, 0}
+                }
+        );
+
+        Solution3.process.clear();
+    }
+
+    @Test
+    public void 테스트케이스2(){
         start(5,
                 new int[][]{
                         {0, 0, 0, 1},
@@ -229,10 +238,12 @@ public class Installation {
                         {4, 0, 0}
                 }
         );
+
+        Solution3.process.clear();
     }
 }
 
-// process를 static으로 설정했기 때문에 테스트 케이스는 하나씩 돌리기
+// Solution3.process.clear() -> 테스트간 static List인 Process의 element 초기화
 
 /*
 테스트 1 〉	통과 (0.80ms, 83.1MB)
