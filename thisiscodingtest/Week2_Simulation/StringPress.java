@@ -53,11 +53,27 @@ public class StringPress {
         Assert.assertEquals(solution, expect);
     }
     @Test
-    public void 테스트케이스(){
+    public void 테스트케이스1(){
         start("aabbaccc", 7);
+    }
+
+    @Test
+    public void 테스트케이스2(){
         start("ababcdcdababcdcd", 9);
+    }
+
+    @Test
+    public void 테스트케이스3(){
         start("abcabcdede", 8);
+    }
+
+    @Test
+    public void 테스트케이스4(){
         start("abcabcabcabcdededededede", 14);
+    }
+
+    @Test
+    public void 테스트케이스5() {
         start("xababcdcdababcdcd", 17);
     }
 }
