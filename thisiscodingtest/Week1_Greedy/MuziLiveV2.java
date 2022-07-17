@@ -94,15 +94,46 @@ public class MuziLiveV2 {
         Assert.assertEquals(solution, expect);
     }
     @Test
-    public void 테스트케이스(){
+    public void 테스트케이스1(){
         start(new int[]{3, 1, 2}, 5, 1);
+    }
+
+    @Test
+    public void 테스트케이스2(){
         start(new int[]{1, 1, 1, 1}, 4, -1);
+    }
+
+    @Test
+    public void 테스트케이스3(){
         start(new int[]{1, 3, 3, 5, 6, 6}, 20, 5);
+    }
+
+    @Test
+    public void 테스트케이스4(){
         start(new int[]{2, 4, 6, 1, 3, 5}, 14, 6);
+    }
+
+    @Test
+    public void 테스트케이스5(){
         start(new int[]{2, 20, 11, 17}, 35, 2);
+    }
+
+    @Test
+    public void 테스트케이스6(){
         start(new int[]{15, 11, 13, 3, 3, 17, 16, 13, 7, 7, 13, 15, 16}, 8, 9);
+    }
+
+    @Test
+    public void 테스트케이스7(){
         start(new int[]{9, 10, 17, 16, 2, 13, 5, 12, 3, 3}, 9, 10);
+    }
+
+    @Test
+    public void 테스트케이스8(){
         start(new int[]{5, 19, 3, 3, 16, 11, 13, 6, 13, 2}, 5, 6);
+    }
+    @Test
+    public void 테스트케이스9(){
         start(new int[]{16, 10, 18, 10, 10, 16, 6}, 6, 7);
     }
 }
