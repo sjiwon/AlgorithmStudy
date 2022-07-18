@@ -56,7 +56,7 @@
     - 뱀 : [바로가기](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week2_Simulation/Snake.java)
     - 기둥과 보 설치 : [바로가기](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week2_Simulation/Installation.java)
     - 치킨 배달 : [바로가기](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week2_Simulation/DeliveryChicken.java)
-    - 외벽 점검
+    - 외벽 점검 : [바로가기](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week2_Simulation/Inspection.java)
 <hr>
 
 ### Week 3 -> DFS/BFS
