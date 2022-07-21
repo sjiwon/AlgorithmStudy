@@ -62,17 +62,19 @@
 ### Week 3 -> DFS/BFS
 - 예제
     - DFS
-        - 인접 행렬
-        - 인접 리스트
+        - 인접 행렬 : [바로가기](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week3_DFS_BFS/DFS_Matrix.java)
+        - 인접 리스트 : [바로가기](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week3_DFS_BFS/DFS_List.java)
     - BFS
-        - 인접 행렬
-        - 인접 리스트
+        - 인접 행렬 : [바로가기](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week3_DFS_BFS/BFS_Matrix.java)
+        - 인접 리스트 : [바로가기](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week3_DFS_BFS/BFS_List.java)
 - 실전
-    - 음료수 얼려 먹기
-    - 미로 탈출
+    - 음료수 얼려 먹기 : [바로가기](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week3_DFS_BFS/FreezeDrinks.java)
+    - 미로 탈출 : [바로가기](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week3_DFS_BFS/MazeEscape.java)
 - 기출
     - 특정 거리의 도시 찾기
-    - 연구소
+      - BFS 풀이 : [바로가기](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week3_DFS_BFS/FindCityOnSpecificStreetV1.java)
+      - Dijkstra 풀이 : [바로가기](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week3_DFS_BFS/FindCityOnSpecificStreetV2.java)
+    - 연구소 : [바로가기](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week3_DFS_BFS/Laboratory.java)
     - 경쟁적 전염
     - 괄호 변환
     - 연산자 끼워 넣기
