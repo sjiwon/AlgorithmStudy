@@ -75,12 +75,12 @@
       - BFS 풀이 : [바로가기](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week3_DFS_BFS/FindCityOnSpecificStreetV1.java)
       - Dijkstra 풀이 : [바로가기](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week3_DFS_BFS/FindCityOnSpecificStreetV2.java)
     - 연구소 : [바로가기](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week3_DFS_BFS/Laboratory.java)
-    - 경쟁적 전염
-    - 괄호 변환
-    - 연산자 끼워 넣기
-    - 감시 피하기
-    - 인구 이동
-    - 블록 이동하기
+    - 경쟁적 전염 : [바로가기](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week3_DFS_BFS/CompetitiveContagion.java)
+    - 괄호 변환 : [바로가기](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week3_DFS_BFS/ParenthesisConversion.java)
+    - 연산자 끼워 넣기 : [바로가기](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week3_DFS_BFS/InterleaveOperator.java)
+    - 감시 피하기 : [바로가기](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week3_DFS_BFS/AvoidSurveillance.java)
+    - 인구 이동 : [바로가기](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week3_DFS_BFS/PopulationMovement.java)
+    - 블록 이동하기 : [바로가기](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week3_DFS_BFS/MoveBlocks.java)
 <hr>
 
 ### Week 4 -> 정렬
