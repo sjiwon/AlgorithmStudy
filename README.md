@@ -85,10 +85,12 @@
 
 ### Week 4 -> 정렬
 - 예제
+    - Bubble Sort
     - Selection Sort
     - Insertion Sort
     - Merge Sort
     - Quick Sort
+    - Radix Sort
     - Counting Sort
 - 실전
     - 위에서 아래로
