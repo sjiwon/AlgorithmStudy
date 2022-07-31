@@ -8,7 +8,7 @@ import java.util.LinkedList;
 import java.util.Map;
 import java.util.StringTokenizer;
 
-public class OrderOfLowerGrades {
+public class OrderByGradeASC {
 
     static StringTokenizer st;
 
