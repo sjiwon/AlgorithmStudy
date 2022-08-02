@@ -24,8 +24,8 @@ public class RouterInstallation {
         Arrays.sort(point);
 
         int minimumDistance = 1;
-        int maximumDIstance = point[point.length - 1] - point[0] + 1;
-        install(point, minimumDistance, maximumDIstance, C);
+        int maximumDistance = point[point.length - 1] - point[0] + 1;
+        install(point, minimumDistance, maximumDistance, C);
         System.out.println(maxDistance);
     }
 
