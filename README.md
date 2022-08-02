@@ -104,11 +104,14 @@
 ### Week 5 -> 이진탐색
 - 실전
     - 부품 찾기
-    - 떡볶이 떡 만들기
+      - Version 1(BinarySearch) : [바로가기](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week5_BinarySearch/FindPartsV1.java)
+      - Version 2(HashSet) : [바로가기](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week5_BinarySearch/FindPartsV2.java)
+      - Version 3(HashMap) : [바로가기](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week5_BinarySearch/FindPartsV3.java)
+    - 떡볶이 떡 만들기: [바로가기](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week5_BinarySearch/RiceCake.java)
 - 기출
-    - 정렬된 배열에서 특정 수의 개수 구하기
-    - 고정점 찾기
-    - 공유기 설치
+    - 정렬된 배열에서 특정 수의 개수 구하기: [바로가기](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week5_BinarySearch/SpecificNumCountInSortedArray.java)
+    - 고정점 찾기: [바로가기](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week5_BinarySearch/FindFixedPoint.java)
+    - 공유기 설치: [바로가기](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week5_BinarySearch/RouterInstallation.java)
     - 가사 검색
 <hr>
 
