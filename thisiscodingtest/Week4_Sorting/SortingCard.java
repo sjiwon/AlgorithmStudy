@@ -9,24 +9,24 @@ import java.util.PriorityQueue;
 public class SortingCard {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        PriorityQueue<Long> pq = new PriorityQueue<>(new Comparator<Long>() {
+        PriorityQueue<Integer> pq = new PriorityQueue<>(new Comparator<Integer>() {
             @Override
-            public int compare(Long o1, Long o2) {
-                return Long.compare(o1, o2);
+            public int compare(Integer o1, Integer o2) {
+                return Integer.compare(o1, o2);
             }
         });
 
         int N = Integer.parseInt(br.readLine());
 
         for(int i=0; i<N; i++){
-            pq.offer(Long.parseLong(br.readLine()));
+            pq.offer(Integer.parseInt(br.readLine()));
         }
 
         int result = 0;
         while (pq.size() >= 2) {
             // 2개씩 꺼내서 더하고 더한값 집어넣기
-            Long firstNum = pq.poll();
-            Long secondNum = pq.poll();
+            Integer firstNum = pq.poll();
+            Integer secondNum = pq.poll();
 
             assert secondNum != null;
             result += firstNum + secondNum; // 2개씩 꺼내서 더한값 누적
