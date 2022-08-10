@@ -122,7 +122,7 @@
   - [정렬된 배열에서 특정 수의 개수 구하기](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week5_BinarySearch/SpecificNumCountInSortedArray.java)
   - [고정점 찾기](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week5_BinarySearch/FindFixedPoint.java)
   - [공유기 설치](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week5_BinarySearch/RouterInstallation.java)
-  - 가사 검색
+  - [가사 검색](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week5_BinarySearch/LyricsSearchV2.java)
 <hr>
 
 ### Week 6 -> DP (Dynamic Programming)
