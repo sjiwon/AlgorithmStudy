@@ -4,8 +4,8 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /*
-접두사 -> 그냥 그대로 BinarySearch 문자열 검색 (compareTo?)
-접미사 -> 뒤집고 나서 BinarySearch
+접미사-> 그냥 그대로 BinarySearch 문자열 검색 (compareTo?)
+접두사 -> 뒤집고 나서 BinarySearch
 
 aa??? -> aa"aaa" ~ aa"zzz"
 ???aa -> 동일하게 "aaa"aa ~ "zzz"aa하면 끝에가 aa가 아닌 다른 문자열이 나올 수 있음
@@ -47,14 +47,14 @@ class Solution2 {
     }
 
     static Map<String, QueryInfo> queryMap; // [key = 쿼리, value = {쿼리 쿼리, 쿼리와 매칭되는 word 개수}]
-    static List<List<String>> list; // 그대로 저장 (접두사)
-    static List<List<String>> reverseList; // 뒤집어서 저장 (접미사)
+    static List<List<String>> list; // 그대로 저장 (접미사)
+    static List<List<String>> reverseList; // 뒤집어서 저장 (접두사)
     static final int MAX_WORDS_LENGTH = 10000;
 
     public int[] solution(String[] words, String[] queries) {
         queryMap = new HashMap<>(); // [key = 쿼리, value = {쿼리 쿼리, 쿼리와 매칭되는 word 개수}]
-        list = new ArrayList<>(); // 그대로 저장 (접두사)
-        reverseList= new ArrayList<>(); // 뒤집어서 저장 (접미사)
+        list = new ArrayList<>(); // 그대로 저장 (접마사)
+        reverseList= new ArrayList<>(); // 뒤집어서 저장 (접두사)
 
         for (int i = 0; i <= MAX_WORDS_LENGTH; i++) {
             list.add(new ArrayList<>());
