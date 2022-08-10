@@ -39,10 +39,9 @@ public class RiceCake {
 
         if(getTotalLength(cake, cut) < M){ // 떡 부족
             cutRiceCake(cake, left, cut - 1, M);
-        } else if(getTotalLength(cake, cut) > M){ // 떡 넘침
-            cutRiceCake(cake, cut + 1, right, M);
-        } else{ // 떡 충족
+        } else { // 떡 충분하거나 넘침
             maxHeight = cut;
+            cutRiceCake(cake, cut + 1, right, M);
         }
     }
 
