@@ -126,18 +126,21 @@
 <hr>
 
 ### Week 6 -> DP (Dynamic Programming)
+### [점화식](https://github.com/sjiwon/AlgorithmStudy/tree/master/thisiscodingtest/Week6_DP/%EC%A0%90%ED%99%94%EC%8B%9D)
 - 실전
-  - 1로 만들기
-  - 개미 전사
-  - 바닥 공사
-  - 효율적인 화폐 구성
+  - [1로 만들기](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week6_DP/MakeItOne.java)
+  - [개미 전사](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week6_DP/AntWarrior.java)
+  - [바닥 공사](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week6_DP/FloorConstruction.java)
+  - [효율적인 화폐 구성](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week6_DP/EfficientMoneyComposition.java)
 - 기출
-  - 금광
-  - 정수 삼각형
-  - 퇴사
+  - [금광](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week6_DP/GoldMine.java)
+  - [정수 삼각형](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week6_DP/IntegerTriangle.java)
+  - [퇴사](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week6_DP/Leave.java)
   - 병사 배치하기
-  - 못생긴 수
-  - 편집 거리
+    - [DP](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week6_DP/DeployingSoldiersV1.java)
+    - [Recursion](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week6_DP/DeployingSoldiersV2.java)
+  - [못생긴 수](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week6_DP/UglyNumber.java)
+  - [편집 거리](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week6_DP/EditDistance.java)
 <hr>
 
 ### Week 7 -> 최단경로
