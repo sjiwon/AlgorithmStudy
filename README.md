@@ -145,16 +145,18 @@
 
 ### Week 7 -> 최단경로
 - 예제
-  - 다익스트라
-  - 플로이드-와샬
+  - [다익스트라](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week7_ShortestPath/Dijkstra.java)
+  - [플로이드-와샬](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week7_ShortestPath/FloydWarshall.java)
 - 실전
   - 미래 도시
-  - 전보
+    - [Dijkstra Version](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week7_ShortestPath/FutureCityDijkstra.java)
+    - [Floyd-Warshall Version](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week7_ShortestPath/FutureCityFloydWarshall.java)
+  - [전보](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week7_ShortestPath/MessageTransfer.java)
 - 기출
-  - 플로이드
-  - 정확한 순위
-  - 화성 탐사
-  - 숨바꼭질
+  - [플로이드](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week7_ShortestPath/Floyd.java)
+  - [정확한 순위](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week7_ShortestPath/ExactRanking.java)
+  - [화성 탐사](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week7_ShortestPath/MarsExploration.java)
+  - [숨바꼭질](https://github.com/sjiwon/AlgorithmStudy/blob/master/thisiscodingtest/Week7_ShortestPath/HideAndSeek.java)
 <hr>
 
 ### Week 8 -> 그래프
